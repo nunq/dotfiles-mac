@@ -1,0 +1,138 @@
+{
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "workbench.enableExperiments": false,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/opt/homebrew/bin/nvim",
+    "explorer.confirmDragAndDrop": false,
+    "vim.vimrc.enable": true,
+    "vim.disableExtension": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#ffa500",
+        "fontWeight": "bold",
+        "opacity": 50
+    },
+    "todo-tree.highlights.customHighlight": {
+
+        "TODO": {
+            "icon": "check",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "#ffff00",
+            "background": "#000",
+            "iconColour": "#ffff00",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "foreground": "#ff0000",
+            "background": "#fff",
+            "iconColour": "#ff0000",
+            "gutterIcon": true,
+            "opacity": 100
+        },
+        "NOTE": {
+            "foreground": "#00cc66",
+            "background": "#3333ff",
+            "iconColour": "#00cc66",
+            "gutterIcon": true,
+            "opacity": 100
+        }
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "NOTE"
+    ],
+    "todo-tree.regex.regex": "((//|%|#|<!--|;|/\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.latex.watch.delay": 630,
+    "latex-workshop.message.badbox.show": false,
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "notebook.output.scrolling": true,
+    "explorer.confirmPasteNative": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    // vscode.dev
+    "keyboard.layout": "com.apple.keylayout.German",
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "chat.viewSessions.orientation": "stacked",
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com/microsoft/vscode/wiki/*": true,
+        "https://search.nixos.org": {
+            "approveRequest": true,
+            "approveResponse": false
+        },
+        "https://raw.githubusercontent.com/VictoriaMetrics/victorialogs-datasource": true,
+        "https://docs.victoriametrics.com": true,
+        "https://pypi.org": true,
+        "https://raw.githubusercontent.com": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://huggingface.co": true
+    },
+    "editor.tabSize": 2,
+    "git.addAICoAuthor": "off",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.middleClickBehavior": "paste",
+    "terminal.integrated.scrollback": 3000,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.tabStopWidth": 4,
+    "diffEditor.maxComputationTime": 0,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "editor.fontFamily": "\"Fira Code\", monospace",
+    "todo-tree.ripgrep.ripgrep": "/opt/homebrew/bin/rg",
+    "editor.wordWrap": "on",
+    "window.zoomLevel": -0.6,
+    "editor.fontSize": 13,
+    "chatgpt.followUpQueueMode": "steer",
+    "workbench.experimental.modernUI": false,
+    "terminal.integrated.initialHint": false,
+    "workbench.editor.empty.hint": "hidden",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "workbench.colorTheme": "Dark Modern",
+    "githubPullRequests.createOnPublishBranch": "never",
+}
