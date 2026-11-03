@@ -1,0 +1,36 @@
+[alias]
+	a = add
+	aa = add -A
+	ap = add --patch
+	au = add -u
+	c = commit
+	co = checkout
+	d = diff
+	dm = diff main
+	dma = diff master
+	dni = diff --no-index
+	ds = diff --staged
+	p = push
+	rc = rebase --continue
+	ri = rebase --interactive
+	s = status
+	subup = submodule foreach git pull
+[core]
+	editor = nvim
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[http]
+	lowspeedlimit = 0
+	lowspeedtime = 999999
+	postbuffer = 524288000
+[init]
+	defaultbranch = main
+[merge]
+	conflictstyle = zdiff3
+[pull]
+	rebase = false
+[user]
+	email = 46054695+nunq@users.noreply.github.com
+	name = nunq
